@@ -1,0 +1,77 @@
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  max-width: var(--max-width);
+  height: 649px;
+  padding: 60px 0;
+  background: url('./main.jpg') center/cover no-repeat;
+  color: var(--color-white);
+}
+
+.title {
+  font-weight: 400;
+  font-family: 'Special Elite', serif;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.name-kr {
+  font-weight: 600;
+  font-family: var(--font-kr);
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 7px;
+}
+
+.name-en {
+  font-weight: 400;
+  font-family: var(--font-en);
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.name-and {
+  font-weight: 400;
+  font-family: var(--font-kr);
+  font-size: 16px;
+}
+
+.information {
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 400;
+  font-family: var(--font-en);
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.date {
+  margin-bottom: 0.5rem;
+  font-size: 12px;
+}
+
+.ort {
+  font-size: 14px;
+}
