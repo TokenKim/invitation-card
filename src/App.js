@@ -1,8 +1,9 @@
 import styles from './App.module.css';
-import Introduce from './components/Introduce/Introduce';
-import Invitation from './components/Invitation/Invitation';
-import Main from './components/Main/Main';
-import WeddingDay from './components/WeddingDay/WeddingDay';
+import Gallery from './section/Gallery/Gallery';
+import Introduce from './section/Introduce/Introduce';
+import Invitation from './section/Invitation/Invitation';
+import Main from './section/Main/Main';
+import WeddingDay from './section/WeddingDay/WeddingDay';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Invitation />
       <WeddingDay />
       <Introduce />
+      <Gallery />
     </div>
   );
 }
