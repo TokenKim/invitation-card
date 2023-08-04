@@ -38,7 +38,6 @@
 .copy-icon {
   margin-left: 10px;
   color: var(--color-gray);
-  transform: translateY(3px);
 }
 
 .copy-icon:hover {
