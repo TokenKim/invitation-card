@@ -35,11 +35,6 @@
   line-height: 14px;
 }
 
-.copy-icon {
-  margin-left: 10px;
-  color: var(--color-gray);
-}
-
 .copy-icon:hover {
   cursor: pointer;
   color: var(--color-black);
@@ -59,4 +54,10 @@
   font-size: 14px;
   line-height: 21px;
   text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 10px;
+  color: var(--color-gray);
 }

@@ -1,16 +1,8 @@
 import React from 'react';
 import styles from './Ort.module.css';
-import { BiCopy } from 'react-icons/bi';
+import { RiExternalLinkLine } from 'react-icons/ri';
 
 export default function Ort() {
-  async function copyTextToClipboard(text) {
-    if ('clipboard' in navigator) {
-      return await navigator.clipboard.writeText(text);
-    } else {
-      return document.execCommand('copy', true, text);
-    }
-  }
-
   return (
     <article className={styles.container}>
       <img src="./images/ort.jpg" alt="ort" />
@@ -20,12 +12,16 @@ export default function Ort() {
           <span className={styles['address-contents']}>
             Golgathakirche, Borsigstr.6, 10115 Berlin
           </span>
-          <BiCopy
-            className={styles['copy-icon']}
-            onClick={() =>
-              copyTextToClipboard('Golgathakirche, Borsigstr.6, 10115 Berlin')
+
+          <a
+            className={styles.link}
+            href={
+              'https://www.google.com/maps/place/Golgathakirche+-+Ev.+Kirchengemeinde+am+Weinberg/@52.5289762,13.3879671,17z/data=!3m1!4b1!4m6!3m5!1s0x47a851eed032e1ff:0xc57523deb55031cd!8m2!3d52.5289762!4d13.390542!16s%2Fg%2F12214wbbc?entry=ttu'
             }
-          />
+            target="blank"
+          >
+            <RiExternalLinkLine />
+          </a>
         </div>
       </div>
       <div className={styles['item-container']}>
