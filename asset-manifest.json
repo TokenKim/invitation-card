@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/invitation-card/static/css/main.7adb9d84.css",
+    "main.js": "/invitation-card/static/js/main.d666693a.js",
+    "static/js/787.4b846e2a.chunk.js": "/invitation-card/static/js/787.4b846e2a.chunk.js",
+    "static/media/main.jpg": "/invitation-card/static/media/main.5ddac18413d6567a81ca.jpg",
+    "static/media/footer.jpg": "/invitation-card/static/media/footer.f0e9444a51b14cffe345.jpg",
+    "index.html": "/invitation-card/index.html",
+    "main.7adb9d84.css.map": "/invitation-card/static/css/main.7adb9d84.css.map",
+    "main.d666693a.js.map": "/invitation-card/static/js/main.d666693a.js.map",
+    "787.4b846e2a.chunk.js.map": "/invitation-card/static/js/787.4b846e2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7adb9d84.css",
+    "static/js/main.d666693a.js"
+  ]
+}
