@@ -8,7 +8,7 @@ export default function Footer() {
         언제나 저희 곁을 따뜻하게 지켜주신 <br />
         모든 분들께 감사드립니다.
       </p>
-      <img src="./images/HeartIcon.png" alt="icon" />
+      <img className={styles.icon} src="./images/HeartIcon.png" alt="icon" />
       <div>
         <span className={styles.name}>신재성</span>
         <span className={styles['name-concat']}>&</span>

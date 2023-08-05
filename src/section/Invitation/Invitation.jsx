@@ -43,10 +43,21 @@ export default function Invitation() {
         보답하겠습니다.
         <br />
       </p>
-      <div className={styles['name-container']}>
-        <span className={styles.name}>신남용 • 채영임</span>
-        <span className={styles['name-concat']}>의 아들</span>
-        <span className={styles.name}>재성</span>
+      <div>
+        <div className={styles['flower-container']}>
+          <img
+            className={styles.flower}
+            src="./images/flower.png"
+            alt="flower"
+          />
+          <span>이선미</span>
+        </div>
+
+        <div className={styles['name-container']}>
+          <span className={styles.name}>신남용 • 채영임</span>
+          <span className={styles['name-concat']}>의 아들</span>
+          <span className={styles.name}>재성</span>
+        </div>
       </div>
       <div>
         <span className={styles.name}>유형용 • 김수옥</span>

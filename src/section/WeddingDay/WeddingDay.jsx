@@ -26,15 +26,21 @@ export default function WeddingDay() {
       <div className={styles.introduction}>
         <p className={styles['introduction-title']}>SAVE THE DATE</p>
         <p className={styles['introduction-contents']}>
-          축하의 마음으로 결혼예배에 참석하시는 <br />
-          모든 분들을 더욱 귀하게 모실 수 있도록,
+          결혼예배에 참석하시는 모든 분들을 <br />
+          더욱 귀하게 모실 수 있도록
           <br />
-          아래 버튼을 눌러 신랑과 신부에게
-          <br />
-          참석 여부 전달을 부탁드립니다.
+          참석여부를 알려주시면 감사하겠습니다.
         </p>
       </div>
-      <button className={styles.button}>참석여부 전달하기</button>
+      <button className={styles.button}>
+        <a
+          className={styles['link']}
+          href="https://forms.gle/p5pWe2eYsYSRrMbEA"
+          target="blank"
+        >
+          참석여부 전달하기
+        </a>
+      </button>
     </section>
   );
 }
