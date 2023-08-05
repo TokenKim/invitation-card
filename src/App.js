@@ -6,6 +6,7 @@ import Main from './section/Main/Main';
 import WeddingDay from './section/WeddingDay/WeddingDay';
 import Information from './section/Information/Information';
 import Footer from './section/Footer/Footer';
+import Hearts from './section/Hearts/Hearts';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Introduce />
       <Gallery />
       <Information />
+      <Hearts />
       <Footer />
     </div>
   );

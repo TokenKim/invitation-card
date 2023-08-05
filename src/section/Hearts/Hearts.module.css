@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: var(--max-width);
+  padding: 60px 0;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  font-family: var(--font-kr);
+}
+
+.title {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.contents {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
