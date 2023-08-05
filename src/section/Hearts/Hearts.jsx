@@ -17,10 +17,45 @@ export default function Hearts() {
         행복하게 잘 살겠습니다.
       </p>
       <div>
-        {/* <ComboBox
+        <ComboBox
           title={'신랑측'}
-          menus={{ title: '신랑', name: '신재성', bank: '신한 110385729680' }}
-        /> */}
+          menus={[
+            {
+              title: '신랑',
+              name: '신재성',
+              bank: [
+                'JAESUNG SHIN',
+                'IBAN : DE88100700240056324700',
+                'BIC : DEUTDEDBBER',
+                'Deutsche Bank',
+              ],
+            },
+            { title: '혼주', name: '신남용', bank: '-' },
+            { title: '혼주', name: '채영임', bank: '-' },
+          ]}
+          buttonStyle={{
+            backgroundColor: '#eef5f8',
+            border: '1px solid #d4e3ec',
+          }}
+          iconStyle={{
+            color: '#71B5D6',
+          }}
+        />
+        <ComboBox
+          title={'신부측'}
+          menus={[
+            { title: '신부', name: '유지수', bank: '신한 110385729680' },
+            { title: '혼주', name: '유형용', bank: '카카오 3333040702070' },
+            { title: '혼주', name: '김수옥', bank: '농협 110502204748' },
+          ]}
+          buttonStyle={{
+            backgroundColor: '#FFF2F2',
+            border: '1px solid #FDDFDE',
+          }}
+          iconStyle={{
+            color: '#FDA9C1',
+          }}
+        />
       </div>
     </section>
   );
